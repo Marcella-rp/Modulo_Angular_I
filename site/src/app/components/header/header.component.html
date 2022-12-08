@@ -37,6 +37,7 @@
           type="search"
           placeholder="Search"
           aria-label="Search"
+          [(ngModel)] = "searchData.inputData"
         />
         <a class="btn btn-outline-light" href="#" (click)="submitSearch()"
           >Search</a
